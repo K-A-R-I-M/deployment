@@ -45,7 +45,7 @@ spec:
     spec:
       containers:
       - name: minecraftum
-        image: localhost:32000/minecraftum:2.0.0
+        image: localhost:32000/minecraftum:3.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 25565
