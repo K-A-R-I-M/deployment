@@ -69,4 +69,7 @@ spec:
     - port: 19151
       targetPort: 25565
       protocol: TCP
+    - port: 19151
+      targetPort: 25565
+      protocol: UDP
 ---
